@@ -5,8 +5,6 @@ import EventCard from "./eventCard";
 const EventList = () => {
   const events = useContext(EventContext);
 
-  const nonsense = 121;
-
   return (
     <div className="row justify-content-center">
       <div className="col-6">
